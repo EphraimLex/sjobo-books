@@ -1,0 +1,64 @@
+name: Deploy Sjöbo Books to GitHub Pages
+
+# Run when changes are pushed to main, or when started manually.
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+# Allow the workflow to read the repository and publish the site.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Run only one Pages deployment at a time.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # Download the repository files.
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      # Prepare Node.js for installing and building the project.
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+
+      # Install the versions recorded in package-lock.json.
+      - name: Install dependencies
+        run: npm ci
+
+      # Check the code before publishing.
+      - name: Run lint checks
+        run: npm run lint
+
+      # Generate the production files in dist.
+      - name: Build website
+        run: npm run build
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      # Upload only the built website.
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: ./dist
+
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v5
+        
