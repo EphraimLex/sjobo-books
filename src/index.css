@@ -1,0 +1,7 @@
+/* Set the website's default typography and colours. */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #f4f6f8;
+}

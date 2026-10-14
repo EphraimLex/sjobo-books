@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 129,
+    "description": "A story of love, family and first impressions in Georgian England."
+  },
+  {
+    "id": 2,
+    "title": "The Hobbit",
+    "author": "J. R. R. Tolkien",
+    "isbn": "",
+    "genre": "Fantasy",
+    "price": 159,
+    "description": "Bilbo Baggins joins a company of dwarves on an unexpected adventure."
+  },
+  {
+    "id": 3,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "isbn": "",
+    "genre": "Gothic",
+    "price": 119,
+    "description": "A scientist creates life and faces the consequences of his ambition."
+  },
+  {
+    "id": 4,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 139,
+    "description": "A young woman seeks independence, belonging and love."
+  },
+  {
+    "id": 5,
+    "title": "The Art of Functional Programming",
+    "author": "Minh Quang Tran",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 199,
+    "description": "Explore functional programming concepts and techniques."
+  },
+  {
+    "id": 6,
+    "title": "The Road to React",
+    "author": "Robin Wieruch",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 249,
+    "description": "Learn React fundamentals step by step by building a practical application."
+  }
+]
