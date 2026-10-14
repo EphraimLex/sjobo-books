@@ -1,5 +1,9 @@
 # Sjöbo Books
 
+## Live Website
+
+[Visit Sjöbo Books](https://ephraimlex.github.io/sjobo-books/)
+
 A responsive bookshop built with React, Vite, and Bootstrap.
 
 This frontend learning project lets visitors browse and search for
