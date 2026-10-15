@@ -52,5 +52,311 @@
     "genre": "Programming",
     "price": 249,
     "description": "Learn React fundamentals step by step by building a practical application."
+  },
+    {
+    "id": 7,
+    "title": "Understanding Analysis",
+    "author": "Stephen Abbott",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 449,
+    "description": "An introduction to rigorous calculus, sequences, continuity and real analysis."
+  },
+  {
+    "id": 8,
+    "title": "Linear Algebra Done Right",
+    "author": "Sheldon Axler",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 499,
+    "description": "Explore vector spaces, linear maps, eigenvalues and inner product spaces."
+  },
+  {
+    "id": 9,
+    "title": "Principles of Mathematical Analysis",
+    "author": "Walter Rudin",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 599,
+    "description": "A rigorous treatment of real and complex numbers, convergence, differentiation and integration."
+  },
+  {
+    "id": 10,
+    "title": "Complex Analysis",
+    "author": "Elias M. Stein and Rami Shakarchi",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 549,
+    "description": "Study complex functions, contour integration and the central theorems of complex analysis."
+  },
+  {
+    "id": 11,
+    "title": "Calculus",
+    "author": "Michael Spivak",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 649,
+    "description": "A proof-based introduction to calculus with challenging problems and careful explanations."
+  },
+  {
+    "id": 12,
+    "title": "Abstract Algebra",
+    "author": "David S. Dummit and Richard M. Foote",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 699,
+    "description": "An extensive introduction to groups, rings, fields and other algebraic structures."
+  },
+  {
+    "id": 13,
+    "title": "Topology",
+    "author": "James R. Munkres",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 579,
+    "description": "Explore topological spaces, continuity, connectedness and compactness."
+  },
+  {
+    "id": 14,
+    "title": "Partial Differential Equations",
+    "author": "Lawrence C. Evans",
+    "isbn": "",
+    "genre": "Mathematics",
+    "price": 749,
+    "description": "A graduate introduction to partial differential equations and methods for studying their solutions."
+  },
+  {
+    "id": 15,
+    "title": "Introduction to Quantum Mechanics",
+    "author": "David J. Griffiths and Darrell F. Schroeter",
+    "isbn": "",
+    "genre": "Physics",
+    "price": 599,
+    "description": "Learn about wave functions, the Schrödinger equation and applications of quantum theory."
+  },
+  {
+    "id": 16,
+    "title": "Principles of Quantum Mechanics",
+    "author": "R. Shankar",
+    "isbn": "",
+    "genre": "Physics",
+    "price": 679,
+    "description": "Develop the mathematical foundations of quantum mechanics and apply them to physical systems."
+  },
+  {
+    "id": 17,
+    "title": "Modern Quantum Mechanics",
+    "author": "J. J. Sakurai and Jim Napolitano",
+    "isbn": "",
+    "genre": "Physics",
+    "price": 729,
+    "description": "An advanced exploration of quantum states, angular momentum, symmetries and scattering."
+  },
+  {
+    "id": 18,
+    "title": "Classical Mechanics",
+    "author": "John R. Taylor",
+    "isbn": "",
+    "genre": "Physics",
+    "price": 589,
+    "description": "Study Newtonian mechanics, oscillations and the Lagrangian and Hamiltonian formulations."
+  },
+  {
+    "id": 19,
+    "title": "Mathematical Methods of Classical Mechanics",
+    "author": "V. I. Arnold",
+    "isbn": "",
+    "genre": "Physics",
+    "price": 629,
+    "description": "Explore classical mechanics through differential equations, geometry and Hamiltonian systems."
+  },
+  {
+    "id": 20,
+    "title": "Introduction to Electrodynamics",
+    "author": "David J. Griffiths",
+    "isbn": "",
+    "genre": "Physics",
+    "price": 569,
+    "description": "An introduction to electric and magnetic fields, Maxwell's equations and electromagnetic waves."
+  },
+  {
+    "id": 21,
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 549,
+    "description": "Use Python's data model, language features and libraries to write expressive programs."
+  },
+  {
+    "id": 22,
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 349,
+    "description": "Learn Python fundamentals and practise them through practical programming projects."
+  },
+  {
+    "id": 23,
+    "title": "Automate the Boring Stuff with Python",
+    "author": "Al Sweigart",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 329,
+    "description": "Write Python scripts to automate repetitive tasks involving files, spreadsheets and more."
+  },
+  {
+    "id": 24,
+    "title": "Python for Data Analysis",
+    "author": "Wes McKinney",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 479,
+    "description": "Work with pandas and NumPy to clean, transform and analyse data."
+  },
+  {
+    "id": 25,
+    "title": "C# in Depth",
+    "author": "Jon Skeet",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 499,
+    "description": "Explore C# language features, including generics, LINQ and asynchronous programming."
+  },
+  {
+    "id": 26,
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas and Andrew Hunt",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 429,
+    "description": "Practical guidance on writing maintainable software and developing effective programming habits."
+  },
+  {
+    "id": 27,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 399,
+    "description": "Explore naming, functions, refactoring and techniques for making code easier to understand."
+  },
+  {
+    "id": 28,
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 359,
+    "description": "Learn JavaScript through explanations, exercises and projects for the browser and beyond."
+  },
+  {
+    "id": 29,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 799,
+    "description": "A comprehensive introduction to algorithms, data structures and computational complexity."
+  },
+  {
+    "id": 30,
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides",
+    "isbn": "",
+    "genre": "Programming",
+    "price": 459,
+    "description": "Discover reusable object-oriented design patterns for recurring software design problems."
+  },
+  {
+    "id": 31,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 169,
+    "description": "A young man's crime leads him into a struggle with guilt, conscience and redemption."
+  },
+  {
+    "id": 32,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 189,
+    "description": "A family conflict becomes an exploration of faith, morality and human responsibility."
+  },
+  {
+    "id": 33,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 219,
+    "description": "The lives of Russian families intertwine during the upheaval of the Napoleonic wars."
+  },
+  {
+    "id": 34,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 179,
+    "description": "Love, social expectations and personal choices shape lives in nineteenth-century Russia."
+  },
+  {
+    "id": 35,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 199,
+    "description": "Jean Valjean seeks a new life amid poverty, injustice and political unrest in France."
+  },
+  {
+    "id": 36,
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 189,
+    "description": "A wrongly imprisoned man escapes and pursues an elaborate plan of revenge."
+  },
+  {
+    "id": 37,
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 159,
+    "description": "Ambition, marriage and social change connect the residents of an English provincial town."
+  },
+  {
+    "id": 38,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "isbn": "",
+    "genre": "Classic",
+    "price": 169,
+    "description": "Captain Ahab's obsession with a white whale drives a dangerous voyage across the ocean."
+  },
+  {
+    "id": 39,
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "isbn": "",
+    "genre": "Dystopian",
+    "price": 149,
+    "description": "A man struggles for truth and independence in a society ruled by surveillance and control."
+  },
+  {
+    "id": 40,
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "isbn": "",
+    "genre": "Science Fiction",
+    "price": 179,
+    "description": "An envoy on an icy planet encounters unfamiliar ideas about gender, society and trust."
   }
 ]
